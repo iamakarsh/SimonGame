@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    
+    <link rel="stylesheet" href="simon game2.css">
+</head>
+<body>
+    
+<header>
+    <div class="dropdown">
+        <a href="#" onclick="toggleDropdown()">How To Play?</a>
+        <div class="dropdown-content" id="hintDropdown">
+          <p>The game has four colored buttons (Red,Green,Yellow,Purple), each producing a particular tone when it is pressed or activated by the player. A round in the game consists of the lighting up one or more buttons in a random order, after which the player must reproduce that order by pressing the buttons.
+            <br>&nbsp;Press The Option(How To Play?) Again To Close This Window.
+          </p>
+        </div>
+      </div>
+
+    <a href="#" class="menu-button flex-align-right">Login/SignUp</a>
+</header>
+    <h1>Simon Says Game</h1>
+    <h2>Press The StartGame Button To Start The Game</h2>
+    <button id="startButton">Start Game</button>
+
+
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red">1</div>
+            <div class="btn yellow" type="button" id="yellow">2</div>
+        </div>
+        <div class="line-one">
+            <div class="btn green" type="button" id="green">3</div>
+            <div class="btn purple" type="button" id="purple">4</div>
+        </div>
+        
+    </div>
+    <footer>
+        <a class="menu-button" href="#">FAQ</a>
+        <a class="menu-button" href="#">Privacy Poloicy</a>
+        <a class="menu-button flex-align-right" href="#">Made With ❤️ By Akarsh</a>
+        <a href="https://www.instagram.com/imakarsh69/" target="_blank" class="insta-handle" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-lg flex-align-right"></i></a>
+        <a href="https://www.linkedin.com/in/akarsh-pratap-singh-0b0142295/" target="_blank"class="linkedin-handle" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+    </footer>
+    
+    <script src="simon game2.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+</html>
