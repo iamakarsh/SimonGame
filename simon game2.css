@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    background-color: #f5f5dc;
+    font-family: 'Segoe UI';
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 50px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black; 
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    
+}
+
+#startButton:hover {
+    background-color: white; 
+    color: black;
+    
+}      
+
+footer, header {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+footer a, header a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+.flex-align-right {
+    margin-left: auto;
+}
+
+.menu-button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+h1, h2 {
+    color: black;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #cd3838;
+}
+
+.yellow {
+    background-color: #dfe225;
+}
+
+.green {
+    background-color: #68c063;
+}
+
+.purple {
+    background-color: #900392;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: hotpink;
+}
+
+@media screen and (max-width: 700px) {
+    footer, header {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    
+    .flex-align-right {
+        margin-left: 0;
+    }
+
+    .btn {
+        height: 150px;
+        width: 150px;
+        margin: 1.5rem;
+    }
+}
